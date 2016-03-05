@@ -8,7 +8,7 @@ Unless otherwise noted all code in this repository is under the MIT license.
 
 ## What's available
 
-RTC support library. Currently supports the DS3231 RTC device.
+RTC support library. Currently supports the DS3231 RTC device. The time related methods work. The alarm related code has been written but not tested.
 
 There is also three implementations of I2C bus wrappers. One is based on the Linux native SMBUS support. This is currently the only implementation that has been tested.
 
